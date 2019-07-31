@@ -55,6 +55,18 @@ git log
 git log - 4 <only the latest four commits will be displayed>
 
 
+Create a new repository in command line and link to remote repository
+
+Note: see the commands
+
+
+…or create a new repository on the command line
+echo "# VidhyaPractice" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/vidhyasivaswamy/VidhyaPractice.git
+git push -u origin master
 
 
 
