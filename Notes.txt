@@ -42,7 +42,7 @@ git checkout --foo\foo.txt
 
 
 deleting a file or removing a file
-git rm <filename> - deleted from the local repository
+git rm <filename> - deleted from the local repository ,git rm is used to remove a file from a Git repository.
 git commit -m "message" - changes will be commited to remote repository
 
 to reset a deleted file 
