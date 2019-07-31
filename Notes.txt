@@ -1,0 +1,70 @@
+git status - gives the status of the git
+git commit <folder or filename> - commits the file locally
+git init - creates a new local repository
+git clone <path to repository> -clones the repository
+For a remote server, use:	
+git clone username@host:/path/to/repository
+pwd - to check which directory is in gitnow
+cd <foldername> - to go to a folder
+
+
+add files
+git add <folder or filename>
+git add *
+git add. - adds new and modified files but not deleted
+git add - u - adds modified and deleted files but not new files
+git add - A - adds modified and deleted and new files
+
+commit
+git commit -m "COmmit message"
+git commit a - commit any files that you have added used add command
+	
+	
+push
+git push origin master
+
+createing a file
+touch .gitignore
+touch abc.txt
+
+git hide files
+
+create a .gitignore file in the git base folder and enter the file extensions
+
+
+to see the difference between remote and local
+git diff <filename> 
+git diff foo\foo.txt
+
+to revert the changes that is in local use checkout
+
+git checkout --foo\foo.txt
+
+
+deleting a file or removing a file
+git rm <filename> - deleted from the local repository
+git commit -m "message" - changes will be commited to remote repository
+
+to reset a deleted file 
+git reset <filename> - delete gets reverted
+git checkout <filename> - file will be checked out from the staging area
+
+To see the log of commit
+
+git log
+git log - 4 <only the latest four commits will be displayed>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
