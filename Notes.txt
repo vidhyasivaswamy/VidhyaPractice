@@ -29,12 +29,17 @@ touch abc.txt
 
 git hide files
 
-create a .gitignore file in the git base folder and enter the file extensions
+create a .gitignore file in the git root folder and enter the file extensions
+dir_name/ - will ignore the folder
+dir_name/*.txt will ignore only the text files
 
+.gitignore files can also be created in specific folders
 
 to see the difference between remote and local
 git diff <filename> 
 git diff foo\foo.txt
+To compare local repository with remote one, simply use the below syntax:
+git diff @{upstream}
 
 to revert the changes that is in local use checkout
 
@@ -70,10 +75,9 @@ git push -u origin master
 
 
 
-Next
-test
+type q to exit from message window
 
-
+When you say HEAD in your Git command, it refers the local repo.
 
 
 
