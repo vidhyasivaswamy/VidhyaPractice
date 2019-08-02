@@ -98,3 +98,25 @@ Git pull
 git pull origin master - merges the changes from remote to local , when two people make changes to the repository by adding to different files , 
 
  
+To simultaneously add and commit the changes
+use
+git commit -am "commit and add"
+
+
+Save a file vi mode
+press ESC
+:wq
+
+
+Git merging conflicts
+1. User 1 updates File1
+2.User 2 updates File 1
+3.USer 1 checks in to remote repository
+4.User 2 does not have User 1 ka changes
+5.User 2 tries to check in ,git will not allow
+6.Git will show merge error
+7.User 2 Open the file and git would have highlighted the differences using weird symbols and HEAD
+8.Merge the changes manually by User 2
+9.add the file by User 2
+10. COmmit the changes and push
+
