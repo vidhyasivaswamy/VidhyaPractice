@@ -79,9 +79,22 @@ type q to exit from message window
 
 When you say HEAD in your Git command, it refers the local repo.
 
+vi <filename> will open the file in Gitbash
+to exit from vim mode , type wq
+
+GIT REMOTE REPOSITORY
+
+Go to the remote repo URL
+To add collaborators click on Settings link in the project , search for the user by username or email of hit hub.
+IN the settings->Options ->Danger Zone - >the transfer of ownership and deleting the repository is possible
+
+To see which remote repository is the local mapped to type git remote -v
+YOu can configure any number of remote repository for a local repository
+By default from where we clone the repository becomes the origin
 
 
+Git pull
 
+git pull origin master - merges the changes from remote to local , when two people make changes to the repository by adding to different files , 
 
-
-
+ 
